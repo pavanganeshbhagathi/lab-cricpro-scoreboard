@@ -1,83 +1,102 @@
 /* Type your code here */
-
-/* change the font family and spacing as per your project font */
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
-/*body {
-  background-image: url("assets/background-image1.png");
-
-}*/
-
-.tablediv {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+* {
+  padding: 0% 0% 0% 2%;
+  margin: 0;
 }
 
-table {
-  border: 2px solid lavender;
-  background-color: white;
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1% 4%;
 }
-#bm img {
-  position: absolute;
-  width: 900px;
-  margin-left: 870px;
-}
-#foot {
-  color: black;
+
+h1,
+h3 {
+  margin-left: 8 px;
 }
 
 h1 {
   font-size: 3.5em;
-}
-h4 {
-  font-weight: lighter;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-tr td,
-tr th {
-  padding: 8px;
+h3 {
+  font-size: 2em;
+  color: gray;
+}
+
+table {
+  width: 55%;
+  justify-content: center;
+  font-size: 1.5em;
+  padding: 5px;
+  margin-left: 30 px;
+  background-color: white;
+}
+
+td {
+  margin: 0px;
+  padding: 5px;
   text-align: left;
-  border-bottom: 1px solid lightgrey;
-  border-left: 0px;
-  border-right: 0px;
 }
 
-td:nth-child(1) {
-  color: rgb(69, 148, 197);
-}
-td:nth-child(1):hover {
-  color: darkblue;
-  font-size: 1.1em;
-}
-#notbat {
-  color: rgb(69, 148, 197);
-}
-
-td:nth-child(2) {
-  color: lightgray;
-}
-
-.logo img {
-  width: 150px;
-  margin-left: 1000px;
-}
-
-#head {
-  background-color: red;
+#tr1 {
+  background-color: orangered;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 5px;
+  border: 0px solid #808080;
+  text-align: left;
+  font-size: 1.5em;
   color: white;
 }
 
-#head tr {
-  color: white;
+body {
+  background-image: url(/assets/background-image1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  right: 20px;
 }
+
+.table-container {
+  font-size: 0.5em;
+  display: flex;
+}
+
+a {
+  color: blue;
+  font: 15px solid;
+  justify-content: left;
+}
+
+p {
+  font: 15px solid;
+  justify-content: left;
+}
+
+/* change the font family and spacing as per your project font */
 
 .footer {
   display: flex;
   flex-direction: row;
   align-content: flex-end;
   position: relative;
-  top: 750px;
-  margin-left: 80px;
+  top: 59px;
+  margin-left: 20px;
   font-size: 18px;
   font-family: Nunito Sans;
   font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+#pavan {
+  text-align: end;
 }
